@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: linear-gradient(to right, #971e97,#000, #fd08dd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.card{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    width: 700px;
+    height: 500px;
+  margin-top: 100px;
+}
+.right{
+    width: 350px;
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+}
+ .right h3{
+    color: rgb(210, 77, 197);
+    font-size: smaller;
+    margin: 30px 0px 10px 30px;
+     letter-spacing:4px ;
+}
+#head1{
+     color: rgb(75, 9, 69);
+     font-size: 40px;
+     margin: 10px 50px 10px 30px;
+}
+ .right p{
+    color: rgb(210, 77, 197);
+    font-size: smaller;
+    margin: 10px 0px 10px 30px;
+    padding-right: 40px;
+ }
+
+ .price{
+    display: flex;
+    flex-direction: row;
+ }
+ .price h1{
+     color: rgb(56, 2, 51);
+      margin: 10px 0px 10px 30px;
+
+ }
+ .price h6{
+     color: rgb(210, 77, 197);
+    font-size: smaller;
+    margin: 20px 0px 10px 5px;
+    text-decoration: line-through;
+ }
+ .button{
+    height:50px ;
+    width: 280px;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(56, 2, 51); 
+    color: white;
+    margin: 10px 20px 10px 30px;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .button button{
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+     
+ }
+#image{
+ width: 350px;
+     height: 500px;
+     border-radius: 15px 0px 0px 15px;
+}
