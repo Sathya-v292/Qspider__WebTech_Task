@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #demo{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            border: 10px solid chartreuse;
+             border-radius:25px;
+             animation-duration: 2s;
+            animation-delay:  3s;
+             animation-name:  chinna;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            animation-timing-function: ease ease-in;
+            animation-timing-function: ease ease-out;
+            animation-timing-function: ease ease-in-out;
+             animation-play-state: runing;
+       }
+        
+        
+
+        @keyframes chinna{
+            10%{
+           height: 100px;
+           width: 100px;
+           background-color: rgb(224, 167, 9);
+           border: dotted 5px rgb(253, 13, 0);
+           transform: translateX(200px);
+            }
+            20%{
+                height: 150px;
+           width: 150px;
+           background-color: rgb(23, 3, 248);
+           border-radius: 50px;
+           border: dashed 5px rgb(0, 173, 253);
+           transform: translate(200px,200px);
+            }
+            60%{
+            height: 40px;
+           width: 40px;
+           background-color: rgb(7, 248, 3);
+           border-radius: 10px;
+           border: dotted 5px rgb(0, 173, 253);
+           transform: translateY(200px);
+            }
+           
+        }
+        </style>
+</head>
+<body>
+    <body>
+    <div id="demo">
+    </div>
+</body>
+</html>
